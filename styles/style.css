@@ -1,0 +1,106 @@
+
+/*Brett Svendsen, UMass Lowell Computer Science*/
+/*brett_svendsen@student.uml.edu*/
+
+
+body {
+	background-color: palegreen;
+	text-align: center;
+}
+
+h1 {
+	color: blue;
+}
+
+.error {
+	color: red;
+	margin: 0px 5px;
+}
+
+form {
+	border: 4px pink;
+	border-style: solid;
+	text-align: center;
+	display: inline-block;
+	padding: 5px;
+}
+
+#working-table{
+	display: inline-block;
+}
+
+.xy-slider {
+
+	width: 250px; 
+	margin: auto;
+}
+
+.slider-text {
+	margin-bottom: 8px;
+}
+
+.table-tabs {
+	width: 200px; 
+	margin: auto;
+	position: relative;
+}
+
+div#table-tabs {
+	width: 100%;
+}
+
+table{
+  padding-top: 25px;
+  margin: 5px;
+  border: 5px blue;
+  width:  300px;
+  height: 300px;
+  overflow: auto;
+  display: inline-block;
+}
+
+input {
+	margin-bottom: 2px;
+}
+
+td, th { padding: 5px; }
+
+td.deadcell, th.deadcell {
+	visibility: hidden !important;
+	border-style: none !important;
+}
+/*
+.ui-tabs-vertical { width: 55em; }
+.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+*/
+
+.table-delete-btn{
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	margin-top: auto;
+}
+
+.cell-header {
+	/*color: pink;*/
+	/*position: fixed;*/
+}
+
+div#table-tabs {
+	margin-top: 10px;
+}
+
+th {
+	border-style: double;
+	background-color: dimgray;
+	color: white;
+}
+
+td {
+	border-style: solid;
+}
+
